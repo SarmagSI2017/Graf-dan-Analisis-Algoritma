@@ -72,6 +72,8 @@ for a in range(0,case):
             subm.append(matrix[0][0])
         subm.append(matrix[i][i])
         sub += 1
+        if(sub > s):
+            break
         for j in range(i+1,r):
             subm.append(matrix[j][j])
             sub +=1
@@ -79,6 +81,8 @@ for a in range(0,case):
                 break
         print(subm)
         allsubm.append(sum(subm))
+    print("semua    : ",allsubm)
+    print("terbesar : ",max(allsubm))
 
 
     
