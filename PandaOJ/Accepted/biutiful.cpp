@@ -1,4 +1,4 @@
-//auth: adit
+//auth: adit ganteng
 
 
 #include<stdio.h>
